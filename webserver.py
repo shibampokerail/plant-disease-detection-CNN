@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 DEVELOPMENT = 'dev'
 PRODUCTION = 'prod'
-
+HOST_IP = ''
 ENV = DEVELOPMENT
 
 # print("connected to the database")
@@ -20,7 +20,8 @@ ENV = DEVELOPMENT
 if ENV == DEVELOPMENT:
     app.debug = True
     app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:12345@localhost/share_db'
-else:
+    HOST_IP = '' # type ipconfig in cmd and put the IP of ipv4 from wireless section
+    else:
     # remote appdatabase uri
     app.config['SQLALCHEMY_DATABASE_URI'] = ''
     app.debug = False
@@ -89,6 +90,6 @@ def prediction():
 if __name__ == "__main__":
     try:
         pass
-        app.run(host="192.168.0.154", port=8000)
+        app.run(host=HOST_IP, port=8000)
     except:
         app.run()
