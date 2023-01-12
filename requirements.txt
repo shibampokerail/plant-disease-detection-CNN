@@ -1,0 +1,6 @@
+tensorflow>=2.11.0
+matplotlib>=3.6.2
+opencv-python>=4.6.0.66
+numpy>=1.23.3
+Pillow>=9.3.0
+Flask>=2.2.2
