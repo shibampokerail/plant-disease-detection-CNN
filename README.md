@@ -1,4 +1,4 @@
-# plant-disease-detection-CNN
+# plant-disease-detection using CNN
 - Detects disease in plants using CNN 
 - Used python-Tensorflow for building the model
 # How to run
