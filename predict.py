@@ -22,8 +22,8 @@ model = tf.keras.models.load_model("Leaves-2convo32-4convo64-2dense64.h5")
 
 
 def predict_disease(image_name):
-    answer = model.predict([convert_input_image(image_name)]).round()
-    return answer
+    prediction = model.predict([convert_input_image(image_name)]).round()
+    return prediction
 
 
 
