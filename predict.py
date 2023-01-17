@@ -1,7 +1,7 @@
 import random
 
 import tensorflow as tf
-from main import class_names, test_ds, plt, model
+from train import class_names, test_ds, plt, model
 import cv2
 import numpy as np
 from PIL import Image
