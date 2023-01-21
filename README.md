@@ -1,4 +1,4 @@
-## [Research Paper](https://drive.google.com/file/d/1V0YOuQHO6ylMZby4rl_ToNPVDOJBxkvs/view)
+## [Click here to view the Research Paper](https://drive.google.com/file/d/1V0YOuQHO6ylMZby4rl_ToNPVDOJBxkvs/view)
 # plant-disease-detection using CNN
 - Detects disease in plants using CNN 
 - Used python-Tensorflow for building the model
