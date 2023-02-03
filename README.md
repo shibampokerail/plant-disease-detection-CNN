@@ -1,5 +1,5 @@
 ## [Click here to view the Research Paper](https://drive.google.com/file/d/1V0YOuQHO6ylMZby4rl_ToNPVDOJBxkvs/view)
-# plant-disease-detection using CNN
+# plant-disease-detection from leaf images
 - Detects disease in plants using CNN 
 - Used python-Tensorflow for building the model
 # How to run
